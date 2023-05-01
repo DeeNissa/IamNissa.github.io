@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("NissaD.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+    <a href="#sophos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-fw fa-wrench w3-xxlarge"></i>
+    <p>SOPHOS</p>
+  </a>
+    <a href="#firewall" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img src="firewall.logo.jpg" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p>FIREWALL</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#sophos" class="w3-bar-item w3-button" style="width:25% !important">SOPHOS</a>
+    <a href="#firewall" class="w3-bar-item w3-button" style="width:25% !important">FIREWALL</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I am</span> Nissa.</h1>
+    <p>Student and Model.</p>
+   <img src="NissaD.jpg" alt="Girl in a black Shirt" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Ms. Dagpin</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> Hi! I am Nissa Dagpin. An IT student at St. Vincent College of Cabuyao. Through this page, i hope to showcase my vision, resume and portfolio. Please contact me with any questions and concerns. </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Modelling</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Music</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Sports</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:87%"></div>
+    </div>
+     <p class="w3-wide">Programming Skills</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:40%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">30+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">20+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">15+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+    <!-- Sophos Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">What is Sophos?</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Sophos is a cybersecurity solution that offers detection and response, firewall, cloud, and managed service solutions for network security and unified threat management. Its software provides critical malware, phishing website, and ransomware prevention. While security specialists are familiar with the brand Sophos antivirus, the program is only excellent for essential malware detection. Sophos protects your device from malware, hackers, and other dangerous invaders.</p>
+    <hr style="width:200px" class="w3-opacity">
+    <h3 class="w3-padding-16 w3-text-light-grey">How does it works?</h3>
+    <p>Sophos also keeps track of your applications and apps, blocking harmful ones and allowing the user to uninstall them.Furthermore, Sophos uses a worldwide database to prevent users from visiting phishing sites, as well as inspecting website code to guard against hacked sites and downloads.The following are some of the benefits of utilising Sophos: Central management is simple and effective. It's simple to get started. Support from synchronised security partnership Self-Service Portal empowers end users by allowing them to view and control their email quarantine, releasing communications that were mistakenly tagged as spam.They may also control their security by creating and managing email-sender allow/blocklists.</p>
+    <hr style="width:200px" class="w3-opacity">
+    <h3 class="w3-padding-16 w3-text-light-grey">What are sophos features?</h3>
+    <p>Administration, Policy Management Logging, Reporting, Application Gateway, Concurrent Sessions, Monitoring, Load Balancing, Continuous Analysis Intrusion PreventionIntrusion Detection, Functionality, Virtual Private Network (VPN), AntivirusURL, Filtering, Availability, For NAT, routing, and bridging, Sophos Firewall provides the most powerful enterprise-grade networking technologies available.
+
+NAT rules that are based on powerful objects.
+Advanced routing features include Static, OSPF, BGP, and RIP, as well as complete 802.11 support.
+Support for 1Q VLANs.
+Link balancing for SD-WAN.
+Options for flexible bridging.
+Support for IPv6 is available.
+Sophos Firewall delivers advanced threat protection to instantly identify bots and other advanced threats while defending your network from today's sophisticated attacks.
+
+Security Heartbeat. Multi-layered, call-home protection. Intelligent firewall policies. Traffic light style indicators.</p>
+    <hr style="width:200px" class="w3-opacity">
+    <h3 class="w3-padding-16 w3-text-light-grey">Sophos Architecture</h3>
+    <p>Using Sophos security software, Architecture Design streamlines the design of your deployment-ready endpoint, encryption, gateway, or network solution.The best practices to assist you in fulfilling your information and network security demands, one needs to build a new system or connect to current security.Sophos Professional Services' design specialists collaborate with clients to create an effective endpoint, encryption, gateway, or network security architecture. This enables one to deploy on schedule and under budget, as well as seamlessly connect with current software and infrastructure.</p>
+    <hr style="width:200px" class="w3-opacity">
+    <h3 class="w3-padding-16 w3-text-light-grey">Sophos products and solutions</h3>
+    <p>Sophos protects home offices. Still, this article concentrates on its core business solutions, including various products for contemporary hybrid architecture for small to big firms. The manufacturer divides its answers into five solution areas: endpoints, network, operations, email, and cloud, all of which are accessible through the Sophos Central Management Console. The following are the vendor's most popular solutions:
+
+Intercept X Endpoint
+Gartner and Forrester consistently rank Intercept X as one of the best endpoint detection and response (EDR) systems, with features including extended detection and response (XDR), anti-ransomware, AI, threat hunting, synchronised security, and more.
+
+By mapping out threats, the Intercept X Endpoint threat analysis centre improves visibility. Sophos is the source of this information.
+
+XGS Firewall Series
+The XGS Firewall Series provides visibility and protection across an increasingly complex IT infrastructure with next-generation firewall (NGFW) technologies. Sophos Firewalls have a scalable gateway design and are available as an on-premises device, as well as a cloud, virtual, or software solution.
+
+Managed Threat Response
+The Managed Threat Response (MTR) service provides managed detection and response (MDR), 24/7 threat hunting, access to cybersecurity specialists, and proactive remediation for enterprises wishing to outsource endpoint protection. MTR has the most telemetry and the highest detection fidelity.</p>
+    <hr style="width:200px" class="w3-opacity">
+    </div>
+    <!-- End Sophos Section -->
+    <div><br>
+    </div>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Modelling</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Hardware Trouble shoot</li>
+          <li class="w3-padding-16">Chat Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 5</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Modelling</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Software/Hardware Trouble shoot</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Carla Jiselle.</span> CEO at Fancior Agency.</p>
+    <p>She is Amazing, I'm inlove.</p><br>
+    
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Marlon Clet.</span> CEO at Cleticons talent management.</p>
+    <p>No one is better than Nissa.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="NissaD_01.jpg" alt="Girl in a black shirt" style="width:100%">
+        <img src="NissaD_06.jpg" alt="persons" style="width:100%">
+        <img src="NissaD_03.jpg" alt="Black and white" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="NissaD_05.jpg" alt="person with glasses" style="width:100%">
+        <img src="NissaD_04.jpg" alt="Girl in blue" style="width:100%">
+        <img src="NissaD_07.jpg" alt="students" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Laguna, Philippines</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +63 975 1950 704</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: NissaD@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
